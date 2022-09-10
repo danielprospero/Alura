@@ -1,0 +1,37 @@
+<html>
+    <body>
+        <script>
+            // Calculadora dinâmica
+
+            // Queremos um número inicial
+            // Queremos um número (tipo de operação)
+            // Queremos um número final 
+
+            var numeroInicial = Number(prompt('Informe o primeiro número: '));
+            var sinal = prompt('Informe o sinal da sua operação: ');
+
+            while(sinal != '-' && sinal != '+' && sinal != '/' && sinal != '*'){
+                alert('Por favor um sinal válido!');
+
+                sinal = prompt('Informe o sinal da sua operação: ');
+            }
+
+            var numeroFinal = Number(prompt('Informe o número final: '));
+
+            if(sinal == '+'){
+                resultadoFinal = numeroInicial + numeroFinal;
+            }else if(sinal == '-'){
+                resultadoFinal = numeroInicial - numeroFinal;
+            }else if(sinal == '/'){
+                resultadoFinal = numeroInicial / numeroFinal;
+            }else if(sinal == '*'){
+                resultadoFinal = numeroInicial * numeroFinal;
+            }
+
+            alert('O resultado final é: '+ resultadoFinal);
+
+
+            
+        </script>
+    </body>
+</html>
