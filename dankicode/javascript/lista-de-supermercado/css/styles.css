@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aquamarine;
+    text-align: center;
+    color: black;
+    padding: 20px 0;
+}
+
+.lista__cadastro{
+    display: flex;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.lista__cadastro input[type=text]{
+    height: 20px 5px;
+    margin: 5px;
+    padding: 5px 30px;
+
+}
+
+.lista__cadastro input[type=number]{
+    height: 20px 5px;
+    margin: 5px;
+    padding: 5px 30px;
+
+}
+
+.lista__cadastro input[type=submit]{
+    height: 20px 5px;
+    margin: 5px;
+    padding: 5px 30px;
+
+}
+
+.lista__produtos-single{
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.lista__produtos-single h3{
+    flex: 0.5;
+    padding: 0 20px;
+}
+
+h3.price__produto{
+    text-align: right;
+    font-size: 17px;
+
+}
+
+h3.price__produto > span{
+    background-color: aquamarine;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.soma__produtos{
+    margin: 20px;
+}
+
+.lista__cadastro-limpar{
+    height: 20px 5px;
+    margin: 20px;
+    padding: 5px 30px;
+
+}
